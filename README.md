@@ -1,14 +1,14 @@
 # MAD Assignment 3 - Android Application
 
-**Student Name:** [Your Name]  
-**Reg No:** [Your Registration Number]  
+**Student Name:** Muhammad Mujeeb Ur Rehman  
+**Reg No:** 23-Arid-839  
 **Course:** Mobile Application Development  
 **Instructor:** Muhammad Azhar  
-**Semester & Section:** 5 (A/B/C)
+**Semester & Section:** BSSE 5 (A)
 
 ---
 
-## 📱 Project Overview
+## Project Overview
 
 This Android application demonstrates comprehensive mobile app development concepts including:
 - Theme management with runtime switching
@@ -22,80 +22,80 @@ This Android application demonstrates comprehensive mobile app development conce
 
 ---
 
-## 🎯 Features Implemented
+## Features Implemented
 
-### Section 1: Application Setup and Theme Management ✅
-- ✅ **Multiple Themes**: Light, Dark, and Custom Blue theme
-- ✅ **Runtime Theme Switching**: Via Options Menu
-- ✅ **Theme Persistence**: Using SharedPreferences
-- ✅ **Auto-apply Theme**: Theme applied on app restart
+### Section 1: Application Setup and Theme Management
+- **Multiple Themes**: Light, Dark, and Custom Blue theme
+- **Runtime Theme Switching**: Via Options Menu
+- **Theme Persistence**: Using SharedPreferences
+- **Auto-apply Theme**: Theme applied on app restart
 
-### Section 2: User State and Authentication ✅
-- ✅ **Login Screen**: Simple authentication with validation
-- ✅ **Authentication Flag**: `isLoggedIn` stored in SharedPreferences
-- ✅ **Intent Navigation**: Auto-redirect based on login state
-- ✅ **State Preservation**: During configuration changes (rotation)
+### Section 2: User State and Authentication
+- **Login Screen**: Simple authentication with validation
+- **Authentication Flag**: `isLoggedIn` stored in SharedPreferences
+- **Intent Navigation**: Auto-redirect based on login state
+- **State Preservation**: During configuration changes (rotation)
 
-### Section 3: Web Services / API Integration ✅
-- ✅ **REST API**: JSONPlaceholder API (`https://jsonplaceholder.typicode.com/users`)
-- ✅ **HTTP Client**: Retrofit with OkHttp
-- ✅ **JSON Parsing**: GSON converter to model classes
-- ✅ **Error Handling**: Network failure and empty response handling
+### Section 3: Web Services / API Integration 
+- **REST API**: JSONPlaceholder API (`https://jsonplaceholder.typicode.com/users`)
+- **HTTP Client**: Retrofit with OkHttp
+- **JSON Parsing**: GSON converter to model classes
+- **Error Handling**: Network failure and empty response handling
 
-### Section 4: Local Data Persistence (SQLite) ✅
-- ✅ **Database Schema**: Comprehensive user table with all fields
-- ✅ **Data Storage**: API responses saved to SQLite
-- ✅ **Offline Access**: Data retrieved from database when offline
-- ✅ **CRUD Operations**: 
+### Section 4: Local Data Persistence (SQLite)
+- **Database Schema**: Comprehensive user table with all fields
+- **Data Storage**: API responses saved to SQLite
+- **Offline Access**: Data retrieved from database when offline
+- **CRUD Operations**: 
   - Create (Insert users)
   - Read (Get all users, get user by ID)
   - Update (Edit user information)
   - Delete (Remove users)
 
-### Section 5: Adapter Implementation ✅
-- ✅ **Default Adapter**: ArrayAdapter with ListView
-- ✅ **Custom Adapter**: RecyclerView.Adapter with ViewHolder
-- ✅ **Data Binding**: SQLite data efficiently bound to UI
-- ✅ **Click Handlers**: Item click events handled via adapters
+### Section 5: Adapter Implementation 
+- **Default Adapter**: ArrayAdapter with ListView
+- **Custom Adapter**: RecyclerView.Adapter with ViewHolder
+- **Data Binding**: SQLite data efficiently bound to UI
+- **Click Handlers**: Item click events handled via adapters
 
-### Section 6: Menu Implementation and Navigation ✅
-- ✅ **Options Menu**: 
+### Section 6: Menu Implementation and Navigation 
+- **Options Menu**: 
   - Theme switching (Light/Dark/Custom)
   - View mode toggle
   - Refresh data
   - Logout
-- ✅ **Context Menu**: Long-press for Edit, Delete, View Details
-- ✅ **Popup Menu**: Three-dot menu on each list item
-- ✅ **Intent Navigation**: Between Login, Main, Detail, and WebView activities
+- **Context Menu**: Long-press for Edit, Delete, View Details
+- **Popup Menu**: Three-dot menu on each list item
+- **Intent Navigation**: Between Login, Main, Detail, and WebView activities
 
-### Section 7: WebView Integration ✅
-- ✅ **WebView Component**: Display external web content
-- ✅ **URL Loading**: User websites and location maps
-- ✅ **JavaScript Enabled**: Full web functionality
-- ✅ **Loading States**: Progress bar and error handling
-- ✅ **In-app Browsing**: No external browser required
+### Section 7: WebView Integration
+- **WebView Component**: Display external web content
+- **URL Loading**: User websites and location maps
+- **JavaScript Enabled**: Full web functionality
+- **Loading States**: Progress bar and error handling
+- **In-app Browsing**: No external browser required
 
-### Section 8: Input Controls and UI Interaction ✅
-- ✅ **Input Controls**: 
+### Section 8: Input Controls and UI Interaction
+- **Input Controls**: 
   - EditText (username, password, edit dialogs)
   - Button (login, actions)
   - CheckBox (remember me)
   - RecyclerView & ListView
-- ✅ **Input Validation**: 
+- **Input Validation**: 
   - Empty field checks
   - Minimum length validation
   - Email format (via API data)
-- ✅ **UI Updates**: Real-time reflection of data changes
+- **UI Updates**: Real-time reflection of data changes
 
-### Section 9: Activity Lifecycle and State Management ✅
-- ✅ **Configuration Changes**: Rotation handled properly
-- ✅ **State Preservation**: `onSaveInstanceState` and `onRestoreInstanceState`
-- ✅ **Smart Data Loading**: No unnecessary API re-fetches
-- ✅ **Memory Management**: Proper lifecycle handling, no leaks
+### Section 9: Activity Lifecycle and State Management
+- **Configuration Changes**: Rotation handled properly
+- **State Preservation**: `onSaveInstanceState` and `onRestoreInstanceState`
+- **Smart Data Loading**: No unnecessary API re-fetches
+- **Memory Management**: Proper lifecycle handling, no leaks
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Project Structure
 ```
@@ -142,7 +142,7 @@ CREATE TABLE users (
 
 ---
 
-## 🔄 Navigation Flow
+## Navigation Flow
 
 ```
 ┌─────────────┐
@@ -178,7 +178,7 @@ CREATE TABLE users (
 
 ---
 
-## 📊 API Details
+## API Details
 
 **API Provider:** JSONPlaceholder  
 **Base URL:** `https://jsonplaceholder.typicode.com/`  
@@ -212,7 +212,7 @@ CREATE TABLE users (
 
 ---
 
-## 🎨 UI Components Used
+## UI Components Used
 
 1. **Material Design Components**
    - MaterialCardView
@@ -243,7 +243,7 @@ CREATE TABLE users (
 
 ---
 
-## 🔧 Technologies & Libraries
+## Technologies & Libraries
 
 - **Language:** Kotlin
 - **Min SDK:** 24 (Android 7.0)
@@ -266,7 +266,7 @@ CREATE TABLE users (
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Android Studio (Hedgehog or later)
@@ -299,7 +299,7 @@ CREATE TABLE users (
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 1. Login Screen
 - Material Design login form
@@ -349,7 +349,7 @@ CREATE TABLE users (
 
 ---
 
-## ✨ Key Features Highlights
+##  Key Features Highlights
 
 ### 1. Offline-First Architecture
 - Data always loaded from SQLite first
@@ -379,7 +379,7 @@ CREATE TABLE users (
 
 ---
 
-## 🔍 Testing Scenarios
+## Testing Scenarios
 
 ### 1. Online Mode
 - Launch app → Login → Data fetched from API → Stored in SQLite
@@ -406,27 +406,27 @@ CREATE TABLE users (
 
 ---
 
-## 📝 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates proficiency in:
-1. ✅ Android Activity lifecycle management
-2. ✅ SharedPreferences for data persistence
-3. ✅ SQLite database operations
-4. ✅ RESTful API integration with Retrofit
-5. ✅ RecyclerView and custom adapters
-6. ✅ Material Design implementation
-7. ✅ Menu systems (Options, Context, Popup)
-8. ✅ WebView integration
-9. ✅ Intent-based navigation
-10. ✅ Kotlin coroutines for async operations
-11. ✅ Configuration change handling
-12. ✅ Input validation
-13. ✅ Theme management
-14. ✅ Clean code architecture
+1. Android Activity lifecycle management
+2. SharedPreferences for data persistence
+3. SQLite database operations
+4. RESTful API integration with Retrofit
+5. RecyclerView and custom adapters
+6. Material Design implementation
+7. Menu systems (Options, Context, Popup)
+8. WebView integration
+9. Intent-based navigation
+10. Kotlin coroutines for async operations
+11. Configuration change handling
+12. Input validation
+13. Theme management
+14. Clean code architecture
 
 ---
 
-## 🐛 Known Issues / Future Enhancements
+## Known Issues / Future Enhancements
 
 ### Current Limitations
 - No backend authentication (demo mode)
@@ -445,7 +445,7 @@ This project demonstrates proficiency in:
 
 ---
 
-## 📚 References
+## References
 
 1. **Android Documentation:** https://developer.android.com
 2. **Material Design:** https://m3.material.io
@@ -455,7 +455,7 @@ This project demonstrates proficiency in:
 
 ---
 
-## 👨‍💻 Developer Information
+## Developer Information
 
 **GitHub Repository:** https://github.com/mujeib101/mad-assignment-3  
 **Email:** [Your Email]  
@@ -464,23 +464,23 @@ This project demonstrates proficiency in:
 
 ---
 
-## 📄 License
+## License
 
 This project is submitted as part of academic coursework for Mobile Application Development course.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Instructor:** Muhammad Azhar
-- **Institution:** [Your University Name]
+- **Institution:** AAUR UIIT Campus
 - **API Provider:** JSONPlaceholder by typicode
 - **Design Inspiration:** Material Design 3
 
 ---
-
-**Submission Date:** [Current Date]  
-**Project Status:** ✅ Complete and Tested
+--
+**Submission Date:**  08-01-2025
+**Project Status:** Complete and Tested
 
 ---
 
